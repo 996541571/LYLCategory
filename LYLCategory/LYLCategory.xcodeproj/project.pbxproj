@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		244A09361E32858700B4F5DA /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A09331E32858700B4F5DA /* NSString+STRegex.m */; };
+		244A09371E32858700B4F5DA /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 244A09351E32858700B4F5DA /* UIColor+Extension.m */; };
 		4568EF5C1DEEBD46009DFDC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568EF5B1DEEBD46009DFDC1 /* main.m */; };
 		4568EF5F1DEEBD46009DFDC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568EF5E1DEEBD46009DFDC1 /* AppDelegate.m */; };
 		4568EF621DEEBD46009DFDC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568EF611DEEBD46009DFDC1 /* ViewController.m */; };
@@ -91,6 +93,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		244A09321E32858700B4F5DA /* NSString+STRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STRegex.h"; sourceTree = "<group>"; };
+		244A09331E32858700B4F5DA /* NSString+STRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STRegex.m"; sourceTree = "<group>"; };
+		244A09341E32858700B4F5DA /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		244A09351E32858700B4F5DA /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 		4568EF571DEEBD46009DFDC1 /* LYLCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYLCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4568EF5B1DEEBD46009DFDC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4568EF5D1DEEBD46009DFDC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -248,6 +254,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		244A09311E32858700B4F5DA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				244A09321E32858700B4F5DA /* NSString+STRegex.h */,
+				244A09331E32858700B4F5DA /* NSString+STRegex.m */,
+				244A09341E32858700B4F5DA /* UIColor+Extension.h */,
+				244A09351E32858700B4F5DA /* UIColor+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		4568EF4E1DEEBD46009DFDC1 = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +331,7 @@
 		4568EF8D1DEEBDED009DFDC1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				244A09311E32858700B4F5DA /* Category */,
 				4568EF8E1DEEBDED009DFDC1 /* Foundation */,
 				4568EFD21DEEBDED009DFDC1 /* UIKit */,
 			);
@@ -713,6 +731,7 @@
 				4568F0141DEEBDED009DFDC1 /* NSData+SDDataCache.m in Sources */,
 				4568F02B1DEEBDEE009DFDC1 /* NSString+UUID.m in Sources */,
 				4568F0451DEEBDEE009DFDC1 /* UIView+Screenshot.m in Sources */,
+				244A09371E32858700B4F5DA /* UIColor+Extension.m in Sources */,
 				4568F01B1DEEBDED009DFDC1 /* NSDictionary+JSONString.m in Sources */,
 				4568F0281DEEBDEE009DFDC1 /* NSString+Trims.m in Sources */,
 				4568F0111DEEBDED009DFDC1 /* NSArray+Block.m in Sources */,
@@ -734,6 +753,7 @@
 				4568F0321DEEBDEE009DFDC1 /* UIButton+Submitting.m in Sources */,
 				4568F0191DEEBDED009DFDC1 /* NSDateFormatter+Make.m in Sources */,
 				4568F01E1DEEBDED009DFDC1 /* NSObject+Blocks.m in Sources */,
+				244A09361E32858700B4F5DA /* NSString+STRegex.m in Sources */,
 				4568EF621DEEBD46009DFDC1 /* ViewController.m in Sources */,
 				4568F0331DEEBDEE009DFDC1 /* UIDevice+Hardware.m in Sources */,
 				4568F0361DEEBDEE009DFDC1 /* UIImage+Capture.m in Sources */,
@@ -998,6 +1018,7 @@
 				4568EF861DEEBD46009DFDC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4568EF871DEEBD46009DFDC1 /* Build configuration list for PBXNativeTarget "LYLCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -1006,6 +1027,7 @@
 				4568EF891DEEBD46009DFDC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4568EF8A1DEEBD46009DFDC1 /* Build configuration list for PBXNativeTarget "LYLCategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -1014,6 +1036,7 @@
 				4568EF8C1DEEBD46009DFDC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
